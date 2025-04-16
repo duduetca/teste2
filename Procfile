@@ -1,1 +1,2 @@
-web: gunicorn checkin_jump.wsgi:application
+web: gunicorn checkin_jump.checkin_jump.wsgi:application
+
